@@ -1,19 +1,25 @@
-//Font Sizes
-$default-font-size: 1.6rem;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+//Fonts
+$font-family-body: 'Poppins', sans-serif;
+$font-size-default: 1.6rem;
 
 // Primary Colors
-$color-primary: hsl(0, 36%, 70%);
+$color-primary: hsl(0, 100%, 74%);
+$color-secondary: hsl(248, 32%, 49%);
 
 // Neutral Colors
-$color-dark: hsl(0, 6%, 24%);
 $color-white: #fff;
+$color-neutral-dark: hsl(249, 10%, 26%);
+$color-neutral-light: hsl(246, 25%, 77%);
 
 // Feedback Colors
-$color-alert: hsl(0, 93%, 68%);
-
-// Gradients
-$color-gradient-light: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
-$color-gradient-dark: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+$color-alert: hsl(0, 100%, 74%);
+$color-success: hsl(154, 59%, 51%);
 
 // Shadows
-$box-shadow-high: 0 10px 40px -15px $color-gradient-dark;
+$box-shadow: 0px 10px 11px -1px hsla(249, 10%, 26%, 0.46);
+
+// Border radius
+$border-radius-container: 10px;
+$border-radius-element: 4px;
