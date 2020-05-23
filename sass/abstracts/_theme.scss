@@ -22,6 +22,11 @@ $box-shadow: 0px 10px 25px 1px rgba($color-neutral-dark, 0.4);
 $border-radius-md: 9px;
 $border-radius-sm: 4px;
 
+// Base Font
+body {
+	font-size: $font-size-default;
+}
+
 //Typography
 .p {
 	font-size: $font-size-default;
