@@ -444,28 +444,22 @@ min-width
 1800px +      Big Desktop
 */
 body {
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-family: "Libre Franklin", sans-serif;
   line-height: 1.65; }
 
 .p {
-  font-size: 2rem;
-  margin-bottom: 1.15em; }
+  font-size: 1.6rem; }
 
 .h1 {
   font-size: 6.4rem;
-  margin: 2.75rem 0 1.05rem;
-  line-height: 1.15;
-  margin-top: 0; }
+  line-height: 1.15; }
 
 .h2 {
   font-size: 4.8rem; }
 
 .h3 {
   font-size: 2.4rem; }
-  @media only screen and (min-width: 56.25em) {
-    .h3 {
-      font-size: 4rem; } }
 
 .h4 {
   font-size: 3.2rem; }
@@ -473,11 +467,14 @@ body {
 .h5 {
   font-size: 2.4rem; }
 
+.h6 {
+  font-size: 2rem; }
+
 .text-small {
-  font-size: 0.7em; }
+  font-size: 0.8rem; }
 
 .text-x-small {
-  font-size: 0.6em; }
+  font-size: 1rem; }
 
 .text-300 {
   font-weight: 300; }

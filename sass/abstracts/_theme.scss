@@ -2,7 +2,7 @@
 
 //FONTS
 $font-family-body: 'Libre Franklin', sans-serif;
-$font-size-default: 2rem;
+$font-size-default: 1.6rem;
 
 // PRIMARY COLORS
 $color-primary: hsl(223, 87%, 63%);
@@ -37,14 +37,11 @@ body {
 
 .p {
 	font-size: $font-size-default;
-	margin-bottom: 1.15em;
 }
 
 .h1 {
 	font-size: 6.4rem;
-	margin: 2.75rem 0 1.05rem;
 	line-height: 1.15;
-	margin-top: 0;
 }
 
 .h2 {
@@ -53,10 +50,6 @@ body {
 
 .h3 {
 	font-size: 2.4rem;
-
-	@include respond(bp900) {
-		font-size: 4rem;
-	}
 }
 
 .h4 {
@@ -67,12 +60,16 @@ body {
 	font-size: 2.4rem;
 }
 
+.h6 {
+	font-size: 2rem;
+}
+
 .text-small {
-	font-size: 0.7em;
+	font-size: 0.8rem;
 }
 
 .text-x-small {
-	font-size: 0.6em;
+	font-size: 1rem;
 }
 
 // TYPOGRAPHY - Text styles
